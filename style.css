@@ -1,0 +1,45 @@
+.btn {
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: dark;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button color styles */
+.btn-prime {
+  background-color: #fff;
+}
+.btn-prime:hover {
+  background-color:#0ef;
+}
+
+.btn-reverse {
+  background-color: #fff;
+}
+.btn-reverse:hover {
+  background-color:#0ef;
+}
+
+.btn-largest {
+  background-color: #fff;
+}
+.btn-largest:hover {
+  background-color: #0ef;
+}
+
+.btn-sorting {
+  background-color: #fff;
+}
+.btn-sorting:hover {
+  background-color: #0ef;
+}
+
+.btn-calculator {
+  background-color: #fff;
+}
+.btn-calculator:hover {
+  background-color: #0ef;
+}

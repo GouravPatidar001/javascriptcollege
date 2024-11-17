@@ -1,0 +1,35 @@
+<html>
+<html>
+<head>
+  <title>Prime Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="text-align: center; color:green;">Prime Number</h1>
+<div>
+  <p>
+    function isPrime(num) {<br>
+    if (num <= 1) {<br>
+        return false; // Numbers less than or equal to 1 are not prime<br>
+    }<br>
+<br>
+    for (let i = 2; i <= Math.sqrt(num); i++) {<br>
+        if (num % i === 0) {<br>
+            return false; // If divisible by any number other than 1 and itself, not prime<br>
+        }<br>
+    }<br>
+<br>
+    return true; // If no divisors found, it's a prime number<br>
+}<br>
+<br>
+// Test the function<br>
+const number = 29;<br>
+if (isPrime(number)) {<br>
+    console.log(`${number} is a prime number.`);<br>
+} else {<br>
+    console.log(`${number} is not a prime number.`);<br>
+}<br>
+    </p>
+</div>
+<a href="primebutton.html"><button class="btn btn-prime">Output</button></a></body>
+</html>
